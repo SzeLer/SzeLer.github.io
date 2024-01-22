@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel = 'stylesheet' href = 'style.css'> </link> 
+    <title>Sze's Weather Forecast Website </title>
+</head>
+
+<body>
+    <div class = 'container'>
+        <div class = 'intro'><h1> What's The Weather ? </h1></div>
+        <div class = 'wrapper'>
+            <div class = 'search-box'>
+                <i class = 'fa-solid fa-location-dot'></i>
+                <input type = 'font' placeholder="Your Location"> 
+                <button class = 'fa-solid fa-magnifying-glass'></button>
+            </div>
+
+            <div class = 'not-found'>
+                <p> Invalid Location !</p>
+            </div>
+            
+            <div class = 'containerlr'>
+                <button class="weather-box">
+                    <p class = "date"></p>
+                    <img src = '' > 
+                    <p class="temperature"></p>
+                    <p class="description"></p>
+                </button>
+
+                <div class = 'future-weather'>
+                    <ul class = 'multiple-days'>
+                        <button class = 'card'>
+                            <p class ='datef'></p>
+                            <img src = '' > 
+                            <p class="temperaturef"></p>
+                            <p class="descriptionf"></p>
+                        </button>
+                        <button class = 'card'>
+                            <p class ='datef'></p>
+                            <img src = '' > 
+                            <p class="temperaturef"></p>
+                            <p class="descriptionf"></p>
+                        </button>
+                        <button class = 'card'>
+                            <p class ='datef'></p>
+                            <img src = '' > 
+                            <p class="temperaturef"></p>
+                            <p class="descriptionf"></p>
+                        </button>
+                        <button class = 'card'>
+                            <p class ='datef'></p>
+                            <img src = '' > 
+                            <p class="temperaturef"></p>
+                            <p class="descriptionf"></p>
+                        </button>
+                        <button class = 'card'>
+                            <p class ='datef'></p>
+                            <img src = '' > 
+                            <p class="temperaturef"></p>
+                            <p class="descriptionf"></p>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+            
+            <ul class="weather-details"> 
+                <button class = "detail">
+                    <i class = 'fa-solid fa-child'></i>
+                    <div class="text">
+                        <p>Feels Like</p>
+                        <span></span>
+                    </div>
+                </button>
+                <button class="detail">
+                    <i class = 'fa-solid fa-water'></i>
+                    <div class="text">
+                        <p>Humidity</p>
+                        <span></span>
+                    </div>
+                </button>
+                <button class="detail">
+                    <i class = 'fa-solid fa-wind'></i>
+                    <div class="text">
+                        <p>Wind Speed</p>
+                        <span></span>
+                    </div>
+                </button>
+                <button class="detail">
+                    <i class = 'fa-solid fa-eye'></i>
+                    <div class="text">
+                        <p>Visibility</p>
+                        <span></span>
+                    </div>
+                </button>
+                <button class="detail">
+                    <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                    <div class="text">
+                        <p>Sea Level</p>
+                        <span></span>
+                    </div>
+                </button>                
+            </ul>
+        </div>
+        <div class="footer"> By Sze Ler </div>
+    </div>
+    <script src = "https://kit.fontawesome.com/7c8801c017.js" crossorigin= "anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
